@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body, html {
-  height: 80%;
+  height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,7 +24,7 @@ body, html {
   -webkit-filter: blur(8px);
   
   /* Full height */
-  height: 50%; 
+  height: 100%; 
   
   /* Center and scale the image nicely */
   background-position: center;
@@ -40,12 +40,12 @@ body, html {
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 15%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family:Apple Chancery, cursive;
   z-index: 2;
-  width: 100%;
+  width: 80%;
   padding: 20px;
   text-align: center;
 }
@@ -116,17 +116,16 @@ body {
 <body>
 
 <div class="topnav">
-  <a  href="index.html">HOME</a>
-  <a href="news.html">COURSES</a>
-  <a href="contact.html">CONTACT</a>
-  <a href="faculty.html">FACULTY</a>
-  <a href="about.html">ABOUT</a>
-  <a href="cpct.html">CPCT</a>
-  <a href="tally.html">TALLY</a>
-  <a href="steno.html">STENO</a>
-  <a href="compatative.html">COMPATATIVE EXAM</a>
-  <a href="gpnst.html">GNST/PNST</a>
-  <a href="pgdca.html">DCA/PGDCA</a>
+  <a class="active" href="#home">HOME</a>
+  <a href="#news">COURSES</a>
+  <a href="#contact">CONTACT</a>
+  <a href="#about">FACULTY</a>
+  <a href="#">ABOUT</a>
+  <a href="adminlogin.php">FACULTY LOGIN</a>
+  <a href="preset-password.php">CHANGE PASSWORD</a>
+  <a href="plogin.php">LOGIN</a>
+  <a href="pregister.php">SIGN UP</a>
+  <a href="form.php">REGISTER YOUR NAME IN ACADEMY</a>
 </div>
 <hr>
 
@@ -164,12 +163,10 @@ body {
 
 <div class="header">
   <h1 style="color:blue;" >MISSION ACADEMY MANDLA</h1>
-  <h2 style="color:red;">For join  our ACADEMY Call us or Mail us</h2>
-  <h1> ...WE PROVIDES... </h1>
+  <h1> ...PROVIDES... </h1>
   <p>TALLY,STENO SHORT HAND HINDI   </p>
   <p>SSC,BANK,RAILWAY,COURT,PEB,MP SI ,MP POLICE</p>
   <p>AND ALL OTHER COMPTETIVE EXAMS AND MANY MORE.....</p>
-  <p>To Download the previous year question papers and sample papers  of above courses go top links </p>
 </div>
 <hr>
 </body>
@@ -397,21 +394,22 @@ html {
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="shivam.jpg" alt="SHIVAM" style="width:100%">
+      <img src="p.png" alt="Jane" style="width:100%">
       <div class="container">
         <h2>DURGE SHIVAM RATHORE</h2>
         <p class="title">Director & Management </p>
         <p>QUALIFICATIONS:-Computer Hardware& Network Engineer</p>
         <p>SKILLS AND SUBJECTS:- Computer,CPCT</p>
         <p>shivam.rathore8819@gmail.com</p>
-        <p>7089017661</p>
+        <p>7089017661
+        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="prasant1.jpeg" alt="PRASHANT" style="width:75%">
+      <img src="prasant1.jpg" alt="Mike" style="width:75%">
       <div class="container">
         <h2>PRASHANT KOSTA</h2>
         <p class="title">Director & Management</p>
@@ -419,6 +417,7 @@ html {
         <p>SKILLS AND SUBJECTS:-Computer,Reasoning And Hindi English Typing skills</p>
         <p>prashantpk444@gmail.com.</p>
         <p>9144050808</p>
+        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
@@ -490,17 +489,17 @@ html {
 <a href="https://www.youtube.com/channel/UCi1xUf1rCwx-NknGPLdVnLQ" class="fa fa-youtube" target="_blank"></a>
 <a href="https://www.instagram.com/missionacademy_mandla/"   class="fa fa-instagram" target="_blank"></a>
 <hr>
-
 </body>
-</html> 
- <!DOCTYPE html>
+</html>
+
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 #container
 {
-width: 100%%;
+width: 100%;
 height: 70px;
 border: solid 5px #FF3361;
 position: relative;
@@ -519,8 +518,8 @@ left: 0;
 bottom: 0;
 position: absolute;
 color:green;
-font-family:Apple Chancery;
-}
+font-family:Apple Chancery, cursive;
+
 
 .fa-instagram {
   background: #125688;
@@ -544,21 +543,23 @@ font-family:Apple Chancery;
   color: white;
 }
 
+
+}
+
 </style>
 </head>
 <body>
 <div id="container">
-
-<div id="bottom-left">
-<h3>THIS SITE IS CREATED BY :--- <b><i style="color:blue;">PRANJAL KUMAR PATEL</i></b></h3>
-
-</div>
 <div id="bottom-right">
 <a href="https://www.instagram.com/pranjalpatel83/"  class="fa fa-instagram" target="_blank"> </a>
 <a href="https://www.facebook.com/pranjal.patel.7967/" class="fa fa-facebook" target="_blank"></a>
 <a href="https://twitter.com/PRANJALKUMARP17" class="fa fa-twitter" target="_blank"></a>
 <a href="https://www.linkedin.com/in/pranjal-kumar-patel-899034201/" class="fa fa-linkedin" target="_blank"></a>
 <a href="https://pranjalpatel275.wixsite.com/website" class="fa fa-google" target="_blank"></a>
+</div>
+<div id="bottom-left">
+<h3>THIS SITE IS CREATED BY :--- <b><i style="color:blue;">PRANJAL KUMAR PATEL</i></b></h3>
+
 </div>
 </div>
 </body>
